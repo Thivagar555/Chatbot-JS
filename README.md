@@ -1,42 +1,36 @@
-# Simple-ChatBot-Pure-HTML-CSS-and-JavaScript
-## Built With: HTML | CSS | JavaScript (No libraries/frameworks)
+Chatbot using HTML, CSS, and JavaScript
 
-## Project Overview
+This is a simple chatbot project built using only HTML, CSS, and JavaScript. It responds to user messages based on predefined keywords and logic written in JavaScript.
 
-This project is a lightweight, interactive chatbot interface created entirely with pure front-end technologies. It simulates a basic chat experience where users can type in a message, and the bot responds with predefined answers. Though simple in functionality, the project emphasizes real-time interactivity and a modern, attractive design.
+It is a fully frontend-based project, so it runs directly in the browser without any backend or database.
 
-This chatbot can serve as:
+Features:
 
-* A beginner-friendly JavaScript project
+Basic chatbot interface
 
-* A template for real chatbot integrations (e.g., Dialogflow, OpenAI, etc.)
+Handles user input
 
-* A frontend UI for support assistants or onboarding flows
+Responds based on matching keywords
 
-```bash
-chatbot-project/
-├── index.html       → Main structure of the chatbot
-├── style.css        → Styling and responsive layout
-└── script.js        → Bot logic and interactivity
-```
+Clean design using HTML and CSS
 
-# Features
+All logic handled through JavaScript
 
- Simulated conversation with basic responses
+Technologies used:
+HTML, CSS, JavaScript
 
-* Modern UI/UX with gradient backgrounds, smooth animations, and bubble-style messages
+How to run the project:
 
-* Real-time interaction with smooth scroll and message animations
+Download or clone the repository
 
-* Keyboard input support (Enter key to send messages)
+Open the folder
 
-* Lightweight — No external libraries or dependencies
+Double-click on the file named index.html
 
+It will open in your browser — no need to install anything
 
-# Getting Started : 
+Live project link:
+https://Thivagar555.github.io/Chatbot-JS/
 
-## Basically no setup or frame-work or Additional require :
-
-just go to the file index.html "open it in a browser" or "Double click on it"
-
-And here you go your simple and small Chat-bot Project is ready to go..
+What I learned from this project:
+I learned how to take user input from a web page, process it using JavaScript, and display a response based on logic. I also understood how to work with the DOM and build a simple, responsive interface.
