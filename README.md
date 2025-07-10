@@ -1,36 +1,31 @@
-Chatbot using HTML, CSS, and JavaScript
+**Chatbot using HTML, CSS, and JavaScript**
 
-This is a simple chatbot project built using only HTML, CSS, and JavaScript. It responds to user messages based on predefined keywords and logic written in JavaScript.
+I created this simple frontend chatbot using HTML, CSS, and JavaScript.  
+It simulates conversation with users by responding to predefined keywords, all within the browser without any backend logic.
 
-It is a fully frontend-based project, so it runs directly in the browser without any backend or database.
+## Features
 
-Features:
+- Simple chat interface  
+- Predefined responses based on keywords  
+- Runs entirely on the frontend  
+- Clean and responsive UI
 
-Basic chatbot interface
+## Technologies Used
 
-Handles user input
-
-Responds based on matching keywords
-
-Clean design using HTML and CSS
-
-All logic handled through JavaScript
-
-Technologies used:
 HTML, CSS, JavaScript
 
-How to run the project:
+## How to Run
 
-Download or clone the repository
+1. Clone this repository or download the ZIP  
+2. Open the folder  
+3. Double-click `index.html` to open it in a browser
 
-Open the folder
+## Live Project Link
 
-Double-click on the file named index.html
+[https://Thivagar555.github.io/Chatbot-JS/](https://Thivagar555.github.io/Chatbot-JS/)
 
-It will open in your browser — no need to install anything
+## What I Learned
 
-Live project link:
-https://Thivagar555.github.io/Chatbot-JS/
-
-What I learned from this project:
-I learned how to take user input from a web page, process it using JavaScript, and display a response based on logic. I also understood how to work with the DOM and build a simple, responsive interface.
+This project helped me learn how to handle user input in a web application and respond dynamically using JavaScript.  
+I explored how simple decision-making can simulate basic AI behavior using conditionals and keyword matching.  
+It gave me confidence in working with DOM elements and building fully frontend-based interactive projects.
