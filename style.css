@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #84f4e0, #ab35ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.chat-container {
+  width: 420px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.chat-header {
+  background-color: #6c5ce7;
+  color: #fff;
+  padding: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 16px;
+  background-color: #fdfdfd;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin: 10px;
+  padding: 10px 16px;
+  border-radius: 20px;
+  max-width: 70%;
+  line-height: 1.5;
+  font-size: 15px;
+  display: inline-block;
+  word-wrap: break-word;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.user-message {
+  background-color: #dfe6e9;
+  color: #2d3436;
+  align-self: flex-end;
+  animation: slideInRight 0.3s ease-out;
+}
+
+.bot-message {
+  background-color: #a29bfe;
+  color: white;
+  align-self: flex-start;
+  animation: slideInLeft 0.3s ease-out;
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.input-box {
+  display: flex;
+  border-top: 1px solid #ccc;
+  background: #fff;
+  padding: 10px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.input-box button {
+  border: none;
+  background-color: #6c5ce7;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-box button:hover {
+  background-color: #5a4dcf;
+}
